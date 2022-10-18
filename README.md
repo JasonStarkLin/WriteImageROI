@@ -25,4 +25,4 @@ Example:
 
 The example (main.py) export a zip file (TestROIs.zip) containing 3 different size rectangle as in the following picture.
 <h1 align="center">
-<img src="TestResults.png" width="300">
+<img src="TestResults.PNG" width="600">
