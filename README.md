@@ -2,7 +2,11 @@
 
 This project is to create the region of interest (ROI) that is compatible to the ImageJ.
 
-For now, the functions (FunWriteROI.py) can create rectangle with integer parameters (left, top , widht, height).
+The program is write refer to the imagej API:
+- https://imagej.nih.gov/ij/developer/source/ij/io/RoiDecoder.java.html
+- https://imagej.nih.gov/ij/developer/source/ij/io/RoiEncoder.java.html
+
+For now, the functions (FunWriteROI.py) can only create rectangle with integer parameters (left, top , widht, height).
 
 Usage:
 1. Include the FunWriteROI.py into the your project.
