@@ -1,15 +1,15 @@
 # WriteImageROI
 
-This project is to create the region of interest (ROI) that is compatible to the ImageJ.
+This project aims to create regions of interest (ROIs) compatible with ImageJ.
 
-The program is write refer to the imagej API:
+The program refers to the ImageJ API:
 - https://imagej.nih.gov/ij/developer/source/ij/io/RoiDecoder.java.html
 - https://imagej.nih.gov/ij/developer/source/ij/io/RoiEncoder.java.html
 
-For now, the functions (FunWriteROI.py) can only create rectangle with integer parameters (left, top , widht, height).
+Currently, the function (FunWriteROI.py) can only create rectangles with integer parameters (left, top , widht, height).
 
 Usage:
-1. Include the FunWriteROI.py into the your project.
+1. Include the FunWriteROI.py into the your project folder.
 2. Import the function into your program.
 3. Collect RectRoi objects and export to the desired path.
 
